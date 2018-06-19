@@ -9,8 +9,8 @@ cache:
     - CI=true
 
 before_deploy:
-  -npm install netlify-cli -g
-  -npm run build
+  - npm install netlify-cli -g
+  - npm run build
 
 deploy:
   provider: script
